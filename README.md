@@ -13,21 +13,25 @@ Export to Excel: Download the finalized exam schedule as an Excel file.
 Live Time Updates: Displays a live clock and highlights schedule cells based on the current time.
 Save and Load Schedule: Save the current schedule to a JSON file and load a saved schedule from a JSON file.
 Responsive Design: Ensures usability across different devices and screen sizes.
+
 How to Use
 Set Exam Date: Select the date for the exams.
 Enter Number of Exams: Specify how many exams are being scheduled for the selected date.
 Generate Schedule: Click on "Create Schedule Table" to generate the schedule table.
+
 Fill in Exam Details:
 Enter the subject for each exam.
 Specify the duration (hours and minutes) for each exam.
 Allocate reading time if applicable.
 Set the start time for each exam.
 When using accommodations, the percentage is added to a row at the bottom of the column. This shows the original exam duration and start time, along with the 30-minute and 5-minute warnings for the original exam time. This design assumes that special and non-special needs students share the same room, with individual 30-minute and 5-minute warnings provided one-on-one. If multiple students in each subject exam have different accommodation percentages, it is advised to run the accommodations in a separate room and provide a column for each student (e.g., Science HL Paper 3 (Jane Smith)) so students can see their individual exam and name. Future versions of the app will relocate the accommodations row above the start time, update the end time, and correctly place the 30-minute and 5-minute warnings before the accommodated end time.
+
 View and Export Schedule:
 Click on "Export to Excel" to export the schedule to an Excel file.
 Click on "Finalized Schedule Display" to see a finalized view of the schedule with live updates.
 Click on "Save Schedule" to keep an offline .json version of the completed table with subject names and time details to load and display at a later date.
 Click on "Load Schedule" to upload a saved .json file and display the exam(s) with subject names and time details already to go.
+
 GitHub Pages Site
 You can view and interact with the IBDP Exam Scheduler and Display directly here: GitHub Pages Site
 
